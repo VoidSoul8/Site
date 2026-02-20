@@ -1,0 +1,107 @@
+/* For the navigational bar */
+.navbar {
+    background-color: #1a1b26;
+    padding: 0.3rem 0.7rem;
+    margin: 5px 0px;
+    border-radius: 20px;
+    min-width: 0;
+    transition: background-color 0.2s ease-in=out, color 0.2s ease-in-out;
+    font-family: "SF Pro Text", "Inter", "Segoe UI", "NotoSans Nerd Font", sans-serif;
+    font-weight: 500;
+}
+
+.navbar ul {
+    list-style: none;
+    margin:  0;
+    padding: 0.3rem 0.7rem;
+    display: flex;
+    gap: 1rem;
+}
+
+.navbar li {
+    margin: 0;
+}
+
+.navbar a {
+    color: #c6d0f5;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+    background-color: rgb(41, 42, 53);
+    background: transparent;
+}
+
+/* Background colors for the website */
+
+.back {
+	background:  #CCFFFF;
+background: linear-gradient(270deg, rgba(204, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 100%);
+}
+
+/* To align text to the center */
+.center {
+	text-align: center;
+}
+
+/* For text rendering */
+
+.text {
+      font-family: "SF Pro Text", "Inter", "Segoe UI", "NotoSans Nerd Font", sans-serif;
+}
+
+/* For images */
+
+.image {
+       border-radius: 20px;
+}
+
+/* Specifically for certain images (Those with a white background)*/
+
+.simage {
+	border-radius: 20px;
+	box-shadow: 0 4px 6px rgba(153, 209, 219, 0.2)
+}
+
+/* Scrollbar implementation */
+
+ .scroll-box {
+            width: 700px;
+            height: 700px;
+            overflow: scroll;
+            border: 1px solid #ccc;
+	    border-radius: 20px;
+            padding: 10px;
+}
+
+/* For circles */
+.dot {
+ 
+  height: 100px;
+  width: 100px;
+  background-color: #1a1b26;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+/* Align other things than text to the center */
+.shape-center {
+  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* For text-boxes */
+.box {
+  width: 290px;
+  height 80px;
+  border-radius: 20px;
+  background-color: #1a1b26;
+  padding: 0.3rem 0.7rem;
+  margin: 5px 0px;
+  min-width: 0;
+  color: #c6d0f5;
+}
+
